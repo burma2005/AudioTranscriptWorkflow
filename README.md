@@ -79,10 +79,15 @@ graph TD
 
     I ==>|"交付最終\n會議紀錄"| A
 
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style H fill:#ff9,stroke:#f66,stroke-width:2px,stroke-dasharray: 5 5
-    style I fill:#bbf,stroke:#333,stroke-width:2px
-    style G fill:#bfb,stroke:#333,stroke-width:2px
+    style A fill:#f9f,stroke:#333,stroke-width:2px,color:#333
+    style H fill:#ff9,stroke:#f66,stroke-width:2px,stroke-dasharray: 5 5,color:#333
+    style I fill:#bbf,stroke:#333,stroke-width:2px,color:#333
+    style G fill:#bfb,stroke:#333,stroke-width:2px,color:#333
+    style B fill:#fff0d0,stroke:#aaa,stroke-width:1px,color:#333
+    style C fill:#fff,stroke:#aaa,stroke-width:1px,color:#333
+    style D fill:#fff,stroke:#aaa,stroke-width:1px,color:#333
+    style E fill:#fff,stroke:#aaa,stroke-width:1px,color:#333
+    style F fill:#fff,stroke:#aaa,stroke-width:1px,color:#333
 ```
 
 ## 📦 相依套件與核心技術 (Dependencies)
