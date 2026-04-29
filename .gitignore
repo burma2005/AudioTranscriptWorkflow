@@ -1,0 +1,21 @@
+# 忽略實際音檔（含敏感內容，切勿上傳）
+input/*.m4a
+input/*.mp3
+input/*.wav
+input/*.flac
+input/*.ogg
+input/*.aac
+input/*.wma
+
+# 忽略 Whisper 轉錄產出（含逐字稿與會議紀錄，切勿上傳）
+# 用 /* 排除子目錄內容，但保留各自的 README.md
+output/transcripts/*
+!output/transcripts/README.md
+output/meeting_minutes/*
+!output/meeting_minutes/README.md
+
+# 忽略 Python 快取與 Whisper 模型快取
+__pycache__/
+*.pyc
+*.pyo
+.whisper_cache/
